@@ -45,6 +45,17 @@ Each chunk has `heading`, `text` and `chars`, so you can embed `text` and keep `
 
 Run [`track_new_jobs.py`](python/track_new_jobs.py) once a day (cron, GitHub Actions or an Apify schedule). The first run returns all open roles; later runs return only postings that are new since the previous run.
 
+## No-code examples (run in the browser)
+
+Prefilled, public Apify tasks — open one, press **Start**, and see the output without writing code:
+
+- [Convert a research paper PDF to Markdown chunks for RAG](https://apify.com/caspiandata/doc-to-markdown/examples/pdf-to-markdown-for-rag)
+- [Convert a web page to clean Markdown (main content only)](https://apify.com/caspiandata/doc-to-markdown/examples/webpage-to-markdown)
+- [Convert Word (DOCX) documents to Markdown with tables](https://apify.com/caspiandata/doc-to-markdown/examples/word-docx-to-markdown)
+- [Track new jobs at Stripe](https://apify.com/caspiandata/ats-jobs-hiring-signals/examples/track-new-jobs-at-stripe)
+- [Remote engineering jobs at tech companies](https://apify.com/caspiandata/ats-jobs-hiring-signals/examples/remote-engineering-jobs-tech-companies)
+- [Hiring signals for tech companies](https://apify.com/caspiandata/ats-jobs-hiring-signals/examples/hiring-signals-tech-companies)
+
 ## License
 
 MIT
